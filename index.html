@@ -40,14 +40,10 @@
         <div class="row center">
           <a href="" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get a quote</a>
         </div>
-        <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="./images/background1alt.png" alt="Unsplashed background img 1"></div>
   </div>
-
-
   <div class="container">
     <div class="section">
 
@@ -97,19 +93,39 @@
 
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
-          <p class="left-align light">
-            Phone: XXX-XXX-XXXX<br>
-            E-mail: someemail@email.com<br>
-            facebook: somelinktofacebook.com
-          </p>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="First Name" id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12">
+                  <input placeholder="Your message" id="message" type="text" class="validate">
+                  <label for="message">Your message</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
   <div class="parallax-container valign-wrapper">
