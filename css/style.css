@@ -76,3 +76,12 @@ footer.page-footer {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
 }
+
+.image-card{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  padding: 30px;
+}
