@@ -85,3 +85,14 @@ footer.page-footer {
 img{
   padding: 30px;
 }
+
+.subheader{
+  text-align: center;
+}
+
+.projects-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
