@@ -18,7 +18,7 @@ This is a multipage html/css website that allows the small business owner to rec
 ## Challenges 
 The most challenging part of creating this project was learning to use email.js. It's an incredibly powerful tool that's designed to allow users to send emails through a contact form.
 ## Installation
-    No install required, visit the link [here] (https://mrogers23458.github.io/VickisFenceCo/).
+No install required, visit the link [here](https://mrogers23458.github.io/VickisFenceCo/).
 ## Usage
     Follow the link above.
 ## License
